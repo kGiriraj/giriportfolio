@@ -23,13 +23,13 @@ const Education = () => {
             title="BE in Information Science"
             subTitle="Global Academy of Technology (2020 - 2024)"
             result="7.14/10"
-            des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
+            des="Driven Information Science student skilled in Java, Python, and software development, focused on creating efficient and innovative tech solutions.."
           />
           <ResumeCard
             title="Science(PCMCS) "
             subTitle="Mahesh PU College(2018 - 2020)"
             result="80/100%"
-            des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
+            des="PCMB student  with a solid foundation in both physical and computer science, eager to leverage analytical and problem-solving skills in tech-driven fields."
           />
           
         </div>

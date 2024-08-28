@@ -5,7 +5,7 @@ import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
-        words: ["Professional Coder.", "Web Developer.", "UI Designer","Java Developer "],
+        words: ["Professional Coder.", "Web Developer.", "UI Designer.","Java Developer.","Python Developer."],
         loop: true,
         typeSpeed: 20,
         deleteSpeed: 10,
@@ -28,7 +28,7 @@ const LeftBanner = () => {
         cursorColor="#ff014f"
       />
         </h2>
-        <p>Enthusiastic and diligent Information science graduate with a strong foundation in programming and problem-solving. Academic projects demonstrate hands-on experience in software development, Web development .Eager to contribute my skills and passion for technology to a dynamic team as I embark on my career journey
+        <p>Enthusiastic and diligent Information science graduate with a strong foundation in programming and problem-solving. Academic projects demonstrate hands-on experience in software development, Web development .Eager to contribute my skills and passion for technology to a dynamic team as I embark on my career journey.
         </p>
     </div>
     <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between ">
