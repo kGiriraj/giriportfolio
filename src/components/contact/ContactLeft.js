@@ -33,9 +33,7 @@ Email: <span className="text-lightText">kaddigiriraj@gmail.com</span>
         
             <FaLinkedinIn />
           </a>
-      <span className='bannerIcon'>
-        <FaInstagram/> 
-      </span>
+    
      </div>
      </div>
     </div>

@@ -3,7 +3,6 @@ import { Navbar } from "./components/navbar/Navbar";
 import Banner from "./components/banner/Banner";
 import Features from "./components/featuers/Features";
 import Project from "./components/project/Project";
-import Resume from "./components/Resume/Resume";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import FooterBottom from "./components/footer/FooterBottom";
@@ -17,7 +16,6 @@ function App() {
       <Banner/>
       <Features/>
       <Project/>
-      <Resume/>
       <Contact/>
       <Footer/>
       <FooterBottom/>

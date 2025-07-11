@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from "react-scroll";
-import {  FaLinkedinIn, FaInstagram} from "react-icons/fa";
+import {  FaLinkedinIn} from "react-icons/fa";
 import {logo} from "../../assets/index"
 
 const Footer = () => {
@@ -15,9 +15,7 @@ const Footer = () => {
         
             <FaLinkedinIn />
           </a>
-      <span className='bannerIcon'>
-        <FaInstagram/> 
-      </span>
+     
      </div>
     </div>
     <div className='w-full h-full ' >
@@ -55,17 +53,6 @@ const Footer = () => {
               className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer"
             >
               Projects
-              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
-            </Link>
-            </li>
-            <li >
-            <Link
-              to="resume"
-              smooth={true}
-              duration={500}
-              className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer"
-            >
-              Resume
               <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
             </Link>
             </li>

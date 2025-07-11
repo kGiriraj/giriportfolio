@@ -1,11 +1,12 @@
 import React from 'react'
 import {useTypewriter, Cursor } from "react-simple-typewriter";
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaReact, FaInstagram, FaJava, FaPython } from "react-icons/fa";
+import { SiSpringboot } from "react-icons/si";
 import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
-        words: ["Professional Coder.", "Web Developer.", "UI Designer.","Java Developer.","Python Developer."],
+        words: ["Full-Stack Java Developer.","React JavaScript Developer. ", "Spring Boot ,REST APIs ,Building Clean, Scalable Web Apps."],
         loop: true,
         typeSpeed: 20,
         deleteSpeed: 10,
@@ -28,7 +29,11 @@ const LeftBanner = () => {
         cursorColor="#ff014f"
       />
         </h2>
-        <p>Enthusiastic and diligent Information science graduate with a strong foundation in programming and problem-solving. Academic projects demonstrate hands-on experience in software development, Web development .Eager to contribute my skills and passion for technology to a dynamic team as I embark on my career journey.
+        <p>Enthusiastic and detail-oriented Information Science graduate with a solid foundation in programming,
+data structures, and problem-solving. Proven hands-on experience in software and web development
+through academic and personal projects. Adept at building full-stack applications and collaborating in team
+environments. Eager to contribute technical skills, creativity, and a growth mindset to a dynamic and innovative
+organization.
         </p>
     </div>
     <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between ">
@@ -41,9 +46,7 @@ const LeftBanner = () => {
         
             <FaLinkedinIn />
           </a>
-        <span className="bannerIcon">
-          <FaInstagram/>
-        </span>
+       
     </div>
       </div>
       <div>
@@ -56,7 +59,7 @@ const LeftBanner = () => {
           <FaJava/>
         </span>
         <span className="bannerIcon">
-          <FaPython/>
+          <SiSpringboot />
         </span>
     </div>
       </div>
